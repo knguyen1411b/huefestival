@@ -1,8 +1,8 @@
 import './globals.css'
 import './app.css'
-import { useMetadata } from '@/hooks/useMetadata'
+import { Metadata } from '@/hooks/useMetadata'
 
-export const metadata = useMetadata
+export const metadata = Metadata()
 export default function RootLayout({
   children
 }: Readonly<{

@@ -100,12 +100,7 @@ function ShowCard({
 export default function ArtCard() {
   const [hovered, setHovered] = useState<number | null>(null)
   return (
-    <div
-      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
-      data-aos="fade-in"
-      data-aos-duration="1200"
-      data-aos-delay="300"
-    >
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
       {shows.map((s, i) => (
         <ShowCard key={s.title} item={s} index={i} hovered={hovered} setHovered={setHovered} />
       ))}

@@ -37,7 +37,7 @@ export default function HomeSection() {
           data-aos-delay="800"
           className="mt-2 md:text-xl mali-font drop-shadow-[0_0_8px_rgba(197,137,232,0.6)]"
         >
-          <ShinyText text="DI SẢN VĂN HÓA VỚI HỘI NHẬP VÀ PHÁT TRIỂN" />
+          <ShinyText text="CULTURAL HERITAGE WITH INTEGRATION AND DEVELOPMENT" />
         </div>
       </div>
 

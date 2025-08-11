@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎉 Festival Landing Page
 
-## Getting Started
+Landing page giới thiệu lễ hội tại cố đô Huế với thiết kế hiện đại, hiệu ứng mượt mà và tương tác trực quan.  
+Người xem có thể khám phá không khí lễ hội, chiêm ngưỡng hình ảnh nghệ thuật, tìm hiểu văn hóa ẩm thực, làng nghề truyền thống và tham quan các địa danh nổi bật trên bản đồ trực tiếp.
 
-First, run the development server:
+## 🌟 Giới thiệu
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Huế – vùng đất của di sản văn hóa thế giới – từ lâu đã trở thành điểm đến hấp dẫn du khách trong và ngoài nước. Lễ hội được tổ chức nhằm tôn vinh giá trị văn hóa, nghệ thuật truyền thống, đồng thời giới thiệu nét đẹp con người và thiên nhiên nơi đây.  
+Landing page này được thiết kế để truyền tải trọn vẹn không khí lễ hội, giúp du khách dễ dàng tìm kiếm thông tin và trải nghiệm trước khi đến Huế.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎭 Nghệ thuật
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Lễ hội quy tụ nhiều chương trình nghệ thuật đặc sắc:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Múa cung đình Huế tái hiện không gian hoàng cung xưa.
+- Trình diễn âm nhạc dân tộc kết hợp với nhạc cụ truyền thống.
+- Biểu diễn áo dài và trang phục truyền thống.
+- Các tiết mục nghệ thuật đường phố sôi động, kết hợp ánh sáng và âm thanh hiện đại.
 
-## Learn More
+## 🍜 Ẩm thực & Làng nghề
 
-To learn more about Next.js, take a look at the following resources:
+Huế nổi tiếng với nền ẩm thực phong phú và tinh tế:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Bún bò Huế, bánh bèo, bánh nậm, bánh lọc.
+- Chè Huế với hàng chục loại hương vị.
+- Các món cung đình mang đậm dấu ấn hoàng gia.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Ngoài ra, du khách có thể trải nghiệm làng nghề truyền thống:
 
-## Deploy on Vercel
+- Làng nón lá Phủ Cam.
+- Làng hương Thủy Xuân.
+- Làng gốm Phước Tích.
+- Nghề thêu tay cung đình.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🏛️ Địa danh
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Landing page tích hợp bản đồ tương tác, giúp bạn khám phá các điểm đến nổi bật:
+
+- **Đại Nội Huế** – trung tâm quyền lực của triều Nguyễn.
+- **Chùa Thiên Mụ** – ngôi chùa cổ kính bên dòng Hương Giang.
+- **Cung An Định** – cung điện mang kiến trúc giao thoa Á – Âu.
+- **Cầu Trường Tiền** – biểu tượng gắn liền với thành phố Huế.
+- **Đồi Vọng Cảnh** – điểm ngắm toàn cảnh thành phố.
+- **Lăng Tự Đức** – lăng tẩm uy nghiêm giữa rừng thông.
+
+## 🚀 Công nghệ sử dụng
+
+- **[Next.js 14](https://nextjs.org/)** – Framework React tối ưu SEO và hiệu suất.
+- **[React 18](https://react.dev/)** – Thư viện xây dựng giao diện người dùng linh hoạt.
+- **[Tailwind CSS](https://tailwindcss.com/)** + **[tailwindcss-animate](https://github.com/jamiebuilds/tailwindcss-animate)** – Thiết kế responsive nhanh chóng, kèm hiệu ứng CSS.
+- **[Framer Motion](https://www.framer.com/motion/)** / **motion** – Hiệu ứng chuyển động tinh tế.
+- **[AOS](https://michalsnik.github.io/aos/)** – Animation khi cuộn trang.
+- **[Lucide React](https://lucide.dev/)** – Bộ icon tối giản, đẹp mắt.
+- **[Radix UI](https://www.radix-ui.com/)** – Thành phần UI accessible (Dialog, Avatar, Slot).
+- **[Leaflet](https://leafletjs.com/)** + **[React Leaflet](https://react-leaflet.js.org/)** – Bản đồ tương tác.
+- **[Lenis](https://github.com/studio-freight/lenis)** – Smooth scrolling mượt mà.
+- **[clsx](https://github.com/lukeed/clsx)** + **[tailwind-merge](https://tailwind-merge.vercel.app/)** – Tối ưu className.
+
+## 📸 Demo
+
+🔗 **Xem demo tại:** [Hue Festival](https://huefestival.vercel.app/)

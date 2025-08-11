@@ -5,45 +5,46 @@ import { cn } from '@/lib/utils'
 
 const craftVillages = [
   {
-    title: 'Làng nghề kim hoàn Kế Môn',
-    description: `Lò bạc vang tiếng, tinh xảo trong từng chi tiết, kế thừa truyền thống lâu đời, tạo nên những sản phẩm vàng bạc tinh tế.`,
+    title: 'Ke Mon Goldsmith Village',
+    description: `The silversmith workshop rings with sound, exquisite in every detail, inheriting a long-standing tradition to create refined gold and silver products.`,
     imgSrc: '/images/village/kimhoan.jpg',
     link: 'https://langngheviet.com.vn/lang-ke-mon-cai-noi-cua-nghe-kim-hoan-18758.html'
   },
   {
-    title: 'Làng nghề đan lát Bao La',
-    description: `Nghề đan lát truyền thống với các sản phẩm thủ công mây tre đa dạng, tinh tế và thân thiện môi trường.`,
+    title: 'Bao La Basket Weaving Village',
+    description: `Traditional basket weaving craft with diverse, delicate, and eco-friendly handmade products made from rattan and bamboo.`,
     imgSrc: '/images/village/danlat.jpg',
     link: 'https://huesmiletravel.com.vn/blog/lang-nghe-dan-lat-bao-la'
   },
   {
-    title: 'Làng nghề đúc đồng',
-    description: `Kỹ thuật đúc đồng truyền thống tạo nên các sản phẩm độc đáo, từ đồ gia dụng đến tượng nghệ thuật.`,
+    title: 'Bronze Casting Village',
+    description: `Traditional bronze casting techniques create unique products ranging from household items to artistic sculptures.`,
     imgSrc: '/images/village/duc.jpg',
     link: 'https://langngheviet.com.vn/lang-nghe-duc-dong-xu-hue-17880.html'
   },
   {
-    title: 'Làng nghề nón lá',
-    description: `Nón lá Huế – biểu tượng truyền thống với kỹ thuật thủ công tinh tế và nét đẹp văn hóa đặc trưng.`,
+    title: 'Conical Hat Village',
+    description: `Hue’s conical hat – a traditional symbol crafted with delicate handmade techniques and distinctive cultural beauty.`,
     imgSrc: '/images/village/nonla.jpg',
     link: 'https://madebymaries.com/non-la-hue-lang-nghe-truyen-thong-xu-hue/'
   },
   {
-    title: 'Pháp lam Huế',
-    description: `Nghệ thuật pháp lam Huế – sự kết hợp hoàn hảo giữa kim loại và nghệ thuật, tạo nên những tác phẩm độc đáo.`,
+    title: 'Hue Enamel Art (Phap Lam)',
+    description: `Hue enamel art – a perfect combination of metal and artistry, creating unique masterpieces.`,
     imgSrc: '/images/village/phaplam.jpg',
     link: 'https://huesmiletravel.com.vn/blog/phap-lam-hue'
   }
 ]
+
 export default function CraftVillageSection() {
   return (
     <>
       <div className="w-full">
         {[
-          { src: '/images/village/lang.webp', text: 'LÀNG' },
-          { src: '/images/village/nghe.jpg', text: 'NGHỀ' },
-          { src: '/images/village/danlat.jpg', text: 'TRUYỀN' },
-          { src: '/images/village/thong.jpg', text: 'THỐNG' }
+          { src: '/images/village/lang.webp', text: 'LANG' },
+          { src: '/images/village/nghe.jpg', text: 'NGHE' },
+          { src: '/images/village/danlat.jpg', text: 'TRUYEN' },
+          { src: '/images/village/thong.jpg', text: 'THONG' }
         ].map((item, idx) => (
           <div key={idx} className="relative h-[150px] lg:h-[200px] w-full overflow-hidden">
             <Image src={item.src} alt={item.text} fill className="object-cover brightness-[.75]" />
@@ -57,7 +58,7 @@ export default function CraftVillageSection() {
               className="absolute hidden inset-0 lg:flex items-center justify-between max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-85"
               data-aos="fade-in"
             >
-              {[{ text: 'LÀNG' }, { text: 'NGHỀ' }, { text: 'TRUYỀN' }, { text: 'THỐNG' }].map((sub, subIdx) => (
+              {[{ text: 'LANG' }, { text: 'NGHE' }, { text: 'TRUYEN' }, { text: 'THONG' }].map((sub, subIdx) => (
                 <ShinyText
                   text={sub.text}
                   speed={3}
@@ -103,7 +104,7 @@ export default function CraftVillageSection() {
              transition-all duration-300 ease-out
              hover:scale-105 hover:shadow-[0_12px_30px_rgba(255,87,34,0.6)]"
                       >
-                        <span className="relative z-10">XEM THÊM</span>
+                        <span className="relative z-10">VIEW MORE</span>
                         <span className="absolute inset-0 rounded-full bg-white/20 opacity-0 hover:opacity-10 transition-opacity duration-300"></span>
                       </button>
                     </div>
@@ -123,7 +124,7 @@ export default function CraftVillageSection() {
              transition-all duration-300 ease-out
              hover:scale-105 hover:shadow-[0_12px_30px_rgba(255,87,34,0.6)]"
                       >
-                        <span className="relative z-10">XEM THÊM</span>
+                        <span className="relative z-10">VIEW MORE</span>
                         <span className="absolute inset-0 rounded-full bg-white/20 opacity-0 hover:opacity-10 transition-opacity duration-300"></span>
                       </button>
                     </div>

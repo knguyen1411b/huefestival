@@ -5,10 +5,10 @@ import useLenis from '@/hooks/useLenis'
 import ICarouselIntro from '../ui/horizontal-scrolling-intro'
 
 const List = [
-  { title: 'Nghệ thuật', ref: 'ArtSection' },
-  { title: 'Ẩm thực', ref: 'FoodSection' },
-  { title: 'Làng nghề', ref: 'CraftVillageSection' },
-  { title: 'Sự kiện', ref: 'EventSection' }
+  { title: 'Art', ref: 'ArtSection' },
+  { title: 'Cuisine', ref: 'FoodSection' },
+  { title: 'Craft Village', ref: 'CraftVillageSection' },
+  { title: 'Events', ref: 'EventSection' }
 ]
 
 export default function IntroSection() {
@@ -42,8 +42,9 @@ export default function IntroSection() {
           data-aos-delay="300"
           className="mb-6 text-base sm:text-lg md:text-xl text-center max-w-4xl mx-auto leading-relaxed text-red-900 mali-font"
         >
-          Năm Du lịch Quốc gia – Huế 2025 là sự kiện văn hóa, kinh tế và du lịch mang tầm quốc gia và quốc tế, gắn liền
-          với Festival Huế 2025 và các hoạt động chào mừng 50 năm Giải phóng thành phố Huế (26/3/1975 – 26/3/2025).
+          The National Tourism Year – Hue 2025 is a cultural, economic, and tourism event of national and international
+          significance, held in conjunction with the Hue Festival 2025 and activities celebrating the 50th anniversary
+          of the Liberation of Hue City (March 26, 1975 – March 26, 2025).
         </p>
 
         <ICarouselIntro />
