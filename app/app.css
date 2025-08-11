@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rowdies:wght@300;400;700&family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.style-script-font {
+  font-family: "Style Script", cursive;
+  font-style: normal;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+.rowdies-font {
+  font-family: "Rowdies", cursive;
+  font-style: normal;
+}
+
+.mali-font {
+  font-family: "Mali", cursive;
+}
