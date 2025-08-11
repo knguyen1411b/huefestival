@@ -12,40 +12,40 @@ type CardData = {
 
 const cardItems: CardData[] = [
   {
-    title: 'Bún bò Huế',
+    title: 'Hue Beef Noodle Soup',
     src: '/images/food/bunbohue.jpg',
     description:
-      'Bún bò Huế là món ăn đặc sản nổi tiếng của Huế, với nước dùng đậm đà, thơm ngon và các loại gia vị đặc trưng.'
+      'Hue Beef Noodle Soup is a famous specialty of Hue, featuring a rich and flavorful broth with distinctive spices.'
   },
   {
-    title: 'Cơm hến',
+    title: 'Clam Rice',
     src: '/images/food/comhen.jpg',
     description:
-      'Cơm hến là món ăn đặc sản của Huế, được làm từ cơm và hến, thường được ăn kèm với rau sống và nước mắm chua ngọt.'
+      'Clam Rice is a Hue specialty made from rice and clams, usually served with fresh herbs and sweet-sour fish sauce.'
   },
   {
-    title: 'Bánh lá chả tôm',
+    title: 'Shrimp Paste Wrapped in Leaf',
     src: '/images/food/banhla.jpg',
     description:
-      'Một lần đến Huế được thưởng thức món bánh lá chả quật, bà Almuth Meyer-Zollisch tấm tắc mãi: “Tôi không nỡ phá vỡ bức tranh đẹp này...”'
+      'On a visit to Hue, tasting the shrimp paste wrapped in leaves made Ms. Almuth Meyer-Zollisch exclaim: “I could not bear to disturb this beautiful picture...”'
   },
   {
-    title: 'Cơm hấp lá sen',
+    title: 'Steamed Rice in Lotus Leaf',
     src: '/images/food/comhap.png',
     description:
-      'Cơm hấp lá sen là sự hòa quyện giữa hương thơm của sen và vị ngọt tự nhiên của gạo, tạo nên món ăn thanh tao, tinh tế.'
+      'Steamed Rice in Lotus Leaf combines the fragrance of lotus with the natural sweetness of rice, creating an elegant and refined dish.'
   },
   {
-    title: 'Chả yến mạch lá lốt',
+    title: 'Oatmeal Meatloaf with Wild Betel Leaf',
     src: '/images/food/chayen.jpg',
     description:
-      'Món chả yến mạch lá lốt kết hợp vị lá lốt quen thuộc và yến mạch bổ dưỡng, mang đến trải nghiệm ẩm thực mới lạ.'
+      'This oatmeal meatloaf combines the familiar flavor of wild betel leaf with nutritious oats, offering a unique culinary experience.'
   },
   {
-    title: 'Gà sen nấm',
+    title: 'Chicken with Lotus and Mushrooms',
     src: '/images/food/gasen.png',
     description:
-      'Gà sen nấm là sự kết hợp giữa vị ngọt của gà, hương thơm của sen và nấm, thường xuất hiện trong các bữa tiệc đặc biệt.'
+      'Chicken with lotus and mushrooms blends the sweetness of chicken, the aroma of lotus, and mushrooms, often featured in special banquets.'
   }
 ]
 

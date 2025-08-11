@@ -9,11 +9,11 @@ import { AnimatePresence, motion } from 'motion/react'
 import { cn } from '@/lib/utils'
 
 const menuItems = [
-  { label: 'Giới thiệu', id: 'IntroSection', acti: [1, 2], offset: 0 },
-  { label: 'Nghệ thuật', id: 'ArtSection', acti: [3], offset: -70 },
-  { label: 'Ẩm thực', id: 'FoodSection', acti: [4], offset: -80 },
-  { label: 'Làng nghề', id: 'CraftVillageSection', acti: [5], offset: -80 },
-  { label: 'Địa danh', id: 'LocationSection', acti: [6], offset: -70 }
+  { label: 'Introduction', id: 'IntroSection', acti: [1, 2], offset: 0 },
+  { label: 'Art', id: 'ArtSection', acti: [3], offset: -70 },
+  { label: 'Cuisine', id: 'FoodSection', acti: [4], offset: -80 },
+  { label: 'Craft Villages', id: 'CraftVillageSection', acti: [5], offset: -80 },
+  { label: 'Landmarks', id: 'LocationSection', acti: [6], offset: -70 }
 ]
 
 export default function Navbar({ isActi }: { isActi: number }) {
@@ -64,13 +64,13 @@ export default function Navbar({ isActi }: { isActi: number }) {
 
           <div className="w-[150px] flex justify-end gap-2">
             <Link href="/">
-              <Avatar className="w-6 h-6 cursor-pointer transition-transform">
+              <Avatar className="w-6 h-6 cursor-pointer transition-transform opacity-60 hover:opacity-100">
                 <AvatarImage src="/vietnamese.png" alt="Vietnamese" />
                 <AvatarFallback>VN</AvatarFallback>
               </Avatar>
             </Link>
             <Link href="/en">
-              <Avatar className="w-6 h-6 cursor-pointer transition-transform opacity-60 hover:opacity-100">
+              <Avatar className="w-6 h-6 cursor-pointer transition-transform ">
                 <AvatarImage src="/english.png" alt="English" />
                 <AvatarFallback>EN</AvatarFallback>
               </Avatar>

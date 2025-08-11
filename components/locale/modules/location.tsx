@@ -1,11 +1,12 @@
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import dynamic from 'next/dynamic'
+import { useState } from 'react'
+import { Dialog, DialogContent } from '@/components/ui/dialog'
+
 const Map = dynamic(() => import('../ui/map'), {
   ssr: false
 })
-import { useState } from 'react'
-import { Dialog, DialogContent } from '@/components/ui/dialog'
-import dynamic from 'next/dynamic'
 
 type Card = {
   id: number
@@ -18,12 +19,27 @@ type Card = {
 }
 
 const cards: Card[] = [
-  { id: 1, title: 'Đại Nội Huế', thumbnail: '/images/location/1.webp', data: { lat: 16.4693566, lon: 107.5753102 } },
-  { id: 2, title: 'Chùa Thiên Mụ', thumbnail: '/images/location/2.webp', data: { lat: 16.4531777, lon: 107.5399676 } },
-  { id: 3, title: 'Cung An Định', thumbnail: '/images/location/3.webp', data: { lat: 16.4566559, lon: 107.5957013 } },
-  { id: 4, title: 'Cầu Trường Tiền', thumbnail: '/images/location/4.webp', data: { lat: 16.46911, lon: 107.5860202 } },
-  { id: 5, title: 'Đồi Vọng Cảnh', thumbnail: '/images/location/5.webp', data: { lat: 16.4312012, lon: 107.5642039 } },
-  { id: 6, title: 'Lăng Tự Đức', thumbnail: '/images/location/6.webp', data: { lat: 16.4330054, lon: 107.5781 } }
+  {
+    id: 1,
+    title: 'Hue Imperial City',
+    thumbnail: '/images/location/1.webp',
+    data: { lat: 16.4693566, lon: 107.5753102 }
+  },
+  {
+    id: 2,
+    title: 'Thien Mu Pagoda',
+    thumbnail: '/images/location/2.webp',
+    data: { lat: 16.4531777, lon: 107.5399676 }
+  },
+  { id: 3, title: 'An Dinh Palace', thumbnail: '/images/location/3.webp', data: { lat: 16.4566559, lon: 107.5957013 } },
+  {
+    id: 4,
+    title: 'Truong Tien Bridge',
+    thumbnail: '/images/location/4.webp',
+    data: { lat: 16.46911, lon: 107.5860202 }
+  },
+  { id: 5, title: 'Vong Canh Hill', thumbnail: '/images/location/5.webp', data: { lat: 16.4312012, lon: 107.5642039 } },
+  { id: 6, title: 'Tu Duc Tomb', thumbnail: '/images/location/6.webp', data: { lat: 16.4330054, lon: 107.5781 } }
 ]
 
 export default function LocationSection() {
@@ -40,11 +56,11 @@ export default function LocationSection() {
             data-aos-duration="1200"
           >
             <h1 className="text-3xl sm:text-4xl md:text-5xl text-yellow-400 font-bold rowdies-font drop-shadow-[0_0_10px_rgba(255,200,0,0.9)]">
-              ĐỊA DANH
+              LANDMARKS
             </h1>
             <p className="mt-3 sm:mt-4 mb-4 sm:mb-6 text-sm sm:text-base md:text-lg lg:text-xl text-white mali-font leading-relaxed drop-shadow-md">
-              Nhắc đến xứ Huế là ta lại liên tưởng đến nhiều công trình kiến trúc cổ cùng những cảnh sắc thiên nhiên
-              mang nét thơ mộng, hữu tình trong không gian thư thái, tĩnh lặng của vùng đất cố đô cũ.
+              Mentioning Hue brings to mind ancient architectural works and poetic, romantic natural scenes within the
+              peaceful, tranquil atmosphere of the old imperial city.
             </p>
             <div className="w-2/3 sm:w-1/2 h-1 bg-gradient-to-r from-yellow-300 via-orange-400 to-red-500 rounded-full mx-auto" />
           </div>
