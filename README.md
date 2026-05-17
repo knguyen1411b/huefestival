@@ -1,61 +1,70 @@
-# 🎉 Festival Landing Page
+# 🎉 Hue Festival Landing Page
 
-Landing page giới thiệu lễ hội tại cố đô Huế với thiết kế hiện đại, hiệu ứng mượt mà và tương tác trực quan.  
-Người xem có thể khám phá không khí lễ hội, chiêm ngưỡng hình ảnh nghệ thuật, tìm hiểu văn hóa ẩm thực, làng nghề truyền thống và tham quan các địa danh nổi bật trên bản đồ trực tiếp.
+![Hue Festival Demo](./app/image.png)
 
-## 🌟 Giới thiệu
+A landing page introducing the Hue Festival, designed with a modern layout, smooth animations, and interactive elements.
+Visitors can explore the festive atmosphere, admire artistic performances, discover local cuisine, traditional craft villages, and view famous landmarks on an interactive map.
 
-Huế – vùng đất của di sản văn hóa thế giới – từ lâu đã trở thành điểm đến hấp dẫn du khách trong và ngoài nước. Lễ hội được tổ chức nhằm tôn vinh giá trị văn hóa, nghệ thuật truyền thống, đồng thời giới thiệu nét đẹp con người và thiên nhiên nơi đây.  
-Landing page này được thiết kế để truyền tải trọn vẹn không khí lễ hội, giúp du khách dễ dàng tìm kiếm thông tin và trải nghiệm trước khi đến Huế.
+## 🌟 Introduction
 
-## 🎭 Nghệ thuật
+Hue – a UNESCO World Cultural Heritage site – has long been an attractive destination for both domestic and international tourists.
+The festival aims to honor cultural values, traditional arts, and showcase the beauty of the people and nature of Hue.
+This landing page is created to fully convey the festival's atmosphere, allowing visitors to easily find information and experience Hue before their trip.
 
-Lễ hội quy tụ nhiều chương trình nghệ thuật đặc sắc:
+## 🎭 Arts
 
-- Múa cung đình Huế tái hiện không gian hoàng cung xưa.
-- Trình diễn âm nhạc dân tộc kết hợp với nhạc cụ truyền thống.
-- Biểu diễn áo dài và trang phục truyền thống.
-- Các tiết mục nghệ thuật đường phố sôi động, kết hợp ánh sáng và âm thanh hiện đại.
+The festival brings together many unique art programs:
 
-## 🍜 Ẩm thực & Làng nghề
+- **Royal Court Dances** recreating the grandeur of the Nguyen Dynasty's imperial palace.
+- **Traditional Music Performances** with authentic instruments.
+- **Ao Dai & Traditional Costume Shows** highlighting Vietnamese fashion heritage.
+- **Street Art Performances** combined with modern lighting and sound effects.
 
-Huế nổi tiếng với nền ẩm thực phong phú và tinh tế:
+## 🍜 Cuisine & Craft Villages
 
-- Bún bò Huế, bánh bèo, bánh nậm, bánh lọc.
-- Chè Huế với hàng chục loại hương vị.
-- Các món cung đình mang đậm dấu ấn hoàng gia.
+Hue is renowned for its rich and sophisticated cuisine:
 
-Ngoài ra, du khách có thể trải nghiệm làng nghề truyền thống:
+- Hue Beef Noodle Soup (_Bún bò Huế_), Steamed Rice Cakes (_Bánh bèo, Bánh nậm, Bánh lọc_).
+- Hue Sweet Soups (_Chè Huế_) with dozens of flavors.
+- Imperial-style dishes with royal influences.
 
-- Làng nón lá Phủ Cam.
-- Làng hương Thủy Xuân.
-- Làng gốm Phước Tích.
-- Nghề thêu tay cung đình.
+Visitors can also experience traditional craft villages:
 
-## 🏛️ Địa danh
+- **Phu Cam Conical Hat Village**.
+- **Thuy Xuan Incense Village**.
+- **Phuoc Tich Pottery Village**.
+- **Royal Hand Embroidery**.
 
-Landing page tích hợp bản đồ tương tác, giúp bạn khám phá các điểm đến nổi bật:
+## 🏛️ Landmarks
 
-- **Đại Nội Huế** – trung tâm quyền lực của triều Nguyễn.
-- **Chùa Thiên Mụ** – ngôi chùa cổ kính bên dòng Hương Giang.
-- **Cung An Định** – cung điện mang kiến trúc giao thoa Á – Âu.
-- **Cầu Trường Tiền** – biểu tượng gắn liền với thành phố Huế.
-- **Đồi Vọng Cảnh** – điểm ngắm toàn cảnh thành phố.
-- **Lăng Tự Đức** – lăng tẩm uy nghiêm giữa rừng thông.
+The landing page features an interactive map showcasing iconic destinations:
 
-## 🚀 Công nghệ sử dụng
+- **Imperial City of Hue** – political and cultural center of the Nguyen Dynasty.
+- **Thien Mu Pagoda** – an ancient temple by the Perfume River.
+- **An Dinh Palace** – a unique blend of Asian and European architecture.
+- **Truong Tien Bridge** – an iconic symbol of Hue.
+- **Vong Canh Hill** – panoramic viewpoint over the city.
+- **Tu Duc Tomb** – majestic royal tomb surrounded by pine forests.
 
-- **[Next.js 14](https://nextjs.org/)** – Framework React tối ưu SEO và hiệu suất.
-- **[React 18](https://react.dev/)** – Thư viện xây dựng giao diện người dùng linh hoạt.
-- **[Tailwind CSS](https://tailwindcss.com/)** + **[tailwindcss-animate](https://github.com/jamiebuilds/tailwindcss-animate)** – Thiết kế responsive nhanh chóng, kèm hiệu ứng CSS.
-- **[Framer Motion](https://www.framer.com/motion/)** / **motion** – Hiệu ứng chuyển động tinh tế.
-- **[AOS](https://michalsnik.github.io/aos/)** – Animation khi cuộn trang.
-- **[Lucide React](https://lucide.dev/)** – Bộ icon tối giản, đẹp mắt.
-- **[Radix UI](https://www.radix-ui.com/)** – Thành phần UI accessible (Dialog, Avatar, Slot).
-- **[Leaflet](https://leafletjs.com/)** + **[React Leaflet](https://react-leaflet.js.org/)** – Bản đồ tương tác.
-- **[Lenis](https://github.com/studio-freight/lenis)** – Smooth scrolling mượt mà.
-- **[clsx](https://github.com/lukeed/clsx)** + **[tailwind-merge](https://tailwind-merge.vercel.app/)** – Tối ưu className.
+## 🚀 Technologies Used
+
+- **[Next.js 14](https://nextjs.org/)** – React framework optimized for SEO and performance.
+- **[React 18](https://react.dev/)** – Flexible UI library.
+- **[Tailwind CSS](https://tailwindcss.com/)** + **[tailwindcss-animate](https://github.com/jamiebuilds/tailwindcss-animate)** – Responsive styling with animations.
+- **[Framer Motion](https://www.framer.com/motion/)** / **motion** – Smooth motion effects.
+- **[AOS](https://michalsnik.github.io/aos/)** – Scroll animations.
+- **[Lucide React](https://lucide.dev/)** – Minimal, elegant icon set.
+- **[Radix UI](https://www.radix-ui.com/)** – Accessible UI components (Dialog, Avatar, Slot).
+- **[Leaflet](https://leafletjs.com/)** + **[React Leaflet](https://react-leaflet.js.org/)** – Interactive maps.
+- **[Lenis](https://github.com/studio-freight/lenis)** – Smooth scrolling experience.
+- **[clsx](https://github.com/lukeed/clsx)** + **[tailwind-merge](https://tailwind-merge.vercel.app/)** – Class name optimization.
 
 ## 📸 Demo
 
-🔗 **Xem demo tại:** [Hue Festival](https://huefestival.vercel.app/)
+🔗 **View live demo:** [Hue Festival](https://huefestival.vercel.app/)
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
